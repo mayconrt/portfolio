@@ -1,0 +1,50 @@
+.ma-container-about{
+    display: inline-flex;
+    width: 100%;
+    height: 300px;
+    background-color: #212121;
+}
+
+.ma-about-left, .ma-about-right{
+    float: left;
+    vertical-align: middle;
+}
+
+.ma-about-left{
+    width: 38%;
+}
+
+.ma-about-right{
+    width: 58%;
+}
+
+.ma-about-img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ma-container-about img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.ma-about-right h2{
+    text-align: center;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 36px;
+    margin-top: 20px;
+}
+
+.ma-about-right p{
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}

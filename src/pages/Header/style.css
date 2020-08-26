@@ -1,0 +1,50 @@
+.ma-div-header {
+    width: auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 9;
+}
+
+.ma-div-header-logo, .ma-div-header-menu {
+    display: inline-block;
+}
+
+.ma-div-header-logo{
+    width: 30%;
+    vertical-align: bottom;
+}
+
+.ma-logo{
+    margin: 25px;
+}
+
+.ma-div-header-menu{
+    width: 65%;
+    text-align: right;
+}
+
+.ma-div-header-logo h1{
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.ma-div-header ul {
+    margin: 25px;
+}
+
+.ma-div-header ul, .ma-div-header li{
+    display: inline-block;
+}
+
+.ma-div-header ul li{
+    font-weight: 700;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.ma-div-header ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+

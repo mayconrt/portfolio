@@ -1,0 +1,53 @@
+.ma-section-skills{
+    margin-top: 250px;
+}
+
+.ma-container-skills{
+    display: inline-block
+}
+.ma-div-half {
+    width: 48%;
+}
+
+.ma-div-half{
+    float: left;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.ma-img-second img{
+    width: 100px;
+    padding: 25px;
+}
+
+.ma-img-first img{
+    width: 200px;
+}
+
+.ma-img-first, .ma-img-second{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+h2.ma-section_title {
+    font-family: Montserrat;
+    font-size: 30px;
+    color: #444444;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+    line-height: 36px;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 20px;    
+}
+.ma-text-skills {
+    margin-bottom: 40px;
+}
+
+.ma-text-skills h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}

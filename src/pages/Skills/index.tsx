@@ -30,11 +30,11 @@ export default function Skills() {
                     </div>
                 </div>
                 <div className="ma-div-half ">
-                    <h2 className="ma-section_title"><span>What We Do</span>How We Help You</h2>
-                    <div className="ma-text-skills"><h4>We Build Apps</h4><p>Proin aliquet ante et elit faucibus placerat. Mauris ac placerat metus, vitae ultrices neque. Nunc consequat turpis nec mauris pulvinar dignissim.</p></div>
-                    <div className="ma-text-skills"><h4>We Make Designs</h4><p>Proin aliquet ante et elit faucibus placerat. Mauris ac placerat metus, vitae ultrices neque. Nunc consequat turpis nec mauris pulvinar dignissim.</p></div>
-                    <div className="ma-text-skills"><h4>We Provide Ideas</h4><p>Proin aliquet ante et elit faucibus placerat. Mauris ac placerat metus, vitae ultrices neque. Nunc consequat turpis nec mauris pulvinar dignissim.</p></div>
-                    <div className="ma-text-skills"><h4>We Are Developers</h4><p>Proin aliquet ante et elit faucibus placerat. Mauris ac placerat metus, vitae ultrices neque. Nunc consequat turpis nec mauris pulvinar dignissim.</p></div>
+                    <h2 className="ma-section_title">A little Of My Knowledge</h2>
+                    <div className="ma-text-skills"><h4>Scrum</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p></div>
+                    <div className="ma-text-skills"><h4>Node Js</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p></div>
+                    <div className="ma-text-skills"><h4>React Js</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p></div>
+                    <div className="ma-text-skills"><h4>Data Base</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p></div>
                 </div>
             </div>
         </section>

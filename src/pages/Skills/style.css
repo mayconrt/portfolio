@@ -1,27 +1,73 @@
+@media (max-width: 780px) {
+
+    .ma-container-skills{
+        display: block
+    }
+    .ma-div-half {
+        width: 100%;
+    }
+    
+    .ma-div-half{
+        float: left;
+        margin-bottom: 20px;
+    }
+
+    .ma-img-second img{
+        width: 80px;
+        padding: 15px;
+    }
+    
+    .ma-img-first img{
+        width: 200px;
+    }    
+
+    h2.ma-section_title {
+        font-size: 25px;
+        text-align: center;
+        line-height: 30px;
+    }    
+
+    .ma-text-skills h4,  .ma-text-skills p{
+        text-align: center;
+    }    
+
+}
+
+@media not all and (max-width: 780px) {
+
+    .ma-container-skills{
+        display: inline-block
+    }
+    .ma-div-half {
+        width: 45%;
+    }
+    
+    .ma-div-half{
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        position: relative;
+    }    
+
+
+    .ma-img-second img{
+        width: 100px;
+        padding: 25px;
+    }
+    
+    .ma-img-first img{
+        width: 200px;
+    }
+
+    h2.ma-section_title {
+        font-size: 30px;
+        text-align: left;
+        line-height: 36px;    
+    }
+}
+
 .ma-section-skills{
     margin-top: 250px;
-}
-
-.ma-container-skills{
-    display: inline-block
-}
-.ma-div-half {
-    width: 48%;
-}
-
-.ma-div-half{
-    float: left;
-    margin-bottom: 20px;
-    position: relative;
-}
-
-.ma-img-second img{
-    width: 100px;
-    padding: 25px;
-}
-
-.ma-img-first img{
-    width: 200px;
 }
 
 .ma-img-first, .ma-img-second{
@@ -32,12 +78,9 @@
 
 h2.ma-section_title {
     font-family: Montserrat;
-    font-size: 30px;
     color: #444444;
     font-style: normal;
     font-weight: bold;
-    text-align: left;
-    line-height: 36px;
     margin-bottom: 30px;
     position: relative;
     padding-bottom: 20px;    

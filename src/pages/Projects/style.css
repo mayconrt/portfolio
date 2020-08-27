@@ -1,3 +1,72 @@
+@media (max-width: 400px) {
+
+	.CSSgal .slider > * {
+		width: 60%;
+	}
+
+	.ma-container-projects img {
+		width: 80%;
+	}	
+
+	#s1:target ~ .slider {transform: translateX(   -0%); -webkit-transform: translateX(   -0%);}
+	#s2:target ~ .slider {transform: translateX(-65%); -webkit-transform: translateX(-65%);}
+	#s3:target ~ .slider {transform: translateX(-125%); -webkit-transform: translateX(-125%);}
+	#s4:target ~ .slider {transform: translateX(-190%); -webkit-transform: translateX(-190%);}	
+
+}
+
+
+@media (min-width: 400px) {
+
+	.CSSgal .slider > * {
+		width: 70%;
+	}
+
+	.ma-container-projects img {
+		width: 85%;
+	}	
+
+	#s1:target ~ .slider {transform: translateX(   5%); -webkit-transform: translateX(   5%);}
+	#s2:target ~ .slider {transform: translateX(-70%); -webkit-transform: translateX(-70%);}
+	#s3:target ~ .slider {transform: translateX(-140%); -webkit-transform: translateX(-140%);}
+	#s4:target ~ .slider {transform: translateX(-215%); -webkit-transform: translateX(-215%);}	
+
+}
+
+@media (min-width: 500px) {
+
+	.CSSgal .slider > * {
+		width: 85%;
+	}
+
+	.ma-container-projects img {
+		width: 85%;
+	}	
+
+	#s1:target ~ .slider {transform: translateX(   8%); -webkit-transform: translateX(   8%);}
+	#s2:target ~ .slider {transform: translateX(-82%); -webkit-transform: translateX(-82%);}
+	#s3:target ~ .slider {transform: translateX(-158%); -webkit-transform: translateX(-168%);}
+	#s4:target ~ .slider {transform: translateX(-255%); -webkit-transform: translateX(-255%);}	
+
+}
+
+@media (min-width: 650px) {
+
+	.ma-container-projects img {
+		width: 45%;
+	}		
+
+	.CSSgal .slider > * {
+		width: 100%;
+	}
+
+	#s1:target ~ .slider {transform: translateX(   -0%); -webkit-transform: translateX(   -0%);}
+	#s2:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
+	#s3:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
+	#s4:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}	
+
+}
+
 .ma-section-projects{
     margin-top: 50px;
 }
@@ -6,7 +75,6 @@
 }
 
 .ma-container-projects img {
-    width: 40%;
     height: 240px;
     border-radius: 10px;
 }
@@ -23,6 +91,7 @@
 }
 
 .ma-card-img{
+	display: flex;
     height: 500px;
     margin: 5px 5px 50px 5px;
     border-radius: 10px;
@@ -62,8 +131,6 @@
 	white-space: normal;
 	vertical-align: top;
 	height: 100%;
-	width: 100%;
-	background: none 50% no-repeat;
 	background-size: cover;
 }
 
@@ -133,6 +200,7 @@
 #s4:target ~ .bullets >*:nth-child(4) {background: rgb(65, 63, 63, 1);}
 /* More slides? Add here more rules */
 
+
 /* PREV/NEXT CONTAINERS VISIBILITY */
 /* ALL: */
 .CSSgal >s:target ~ .prevNext >* {      visibility: hidden;}
@@ -141,21 +209,7 @@
 #s2:target ~ .prevNext >*:nth-child(2) {visibility: visible;}
 #s3:target ~ .prevNext >*:nth-child(3) {visibility: visible;}
 #s4:target ~ .prevNext >*:nth-child(4) {visibility: visible;}
-/* More slides? Add here more rules */
 
-/* SLIDER ANIMATION POSITIONS */
-
-#s1:target ~ .slider {transform: translateX(   0%); -webkit-transform: translateX(   0%);}
-#s2:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
-#s3:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
-#s4:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
-/* More slides? Add here more rules */
-
-
-/* YOU'RE THE DESIGNER! 
-   ____________________
-   All above was mainly to get it working :)
-   CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .CSSgal a {
 	border-radius: 50%;
@@ -169,3 +223,4 @@
     font-size: 30px;
     margin-bottom: 30px;
 }
+

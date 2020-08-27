@@ -1,6 +1,9 @@
 import React from 'react'
 
 import imgHome from '../../assets/capa1.jpg'
+import imgPerfil from '../../assets/mayconperfil.jpeg'
+import imgSocial from '../../assets/social.jpeg'
+import imgFamily from '../../assets/family.jpeg'
 import './style.css'
 
 export default function Home() {
@@ -16,27 +19,27 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="pagearea-inner">
+            <div className="ma-card-home">
 
-                <div className="fourbox three_column first">
+                <div className="ma-box ma-column-tree first">
 
-                    <div className="thumbbx"><img alt="" src="http://flythemesdemo.net/gosporty/wp-content/themes/gosporty-pro/images/feature1.png" /></div>
-                    <div className="fourbxcontent"><h3>Hobbies</h3>
+                    <div className="ma-card-socials"><img alt="" src={imgPerfil} /></div>
+                    <div className="ma-box-content"><h3>Request a Budget</h3>
+                    </div>
+                </div>
+
+                <div className="ma-box ma-column-tree last_column second" >
+
+                    <div className="ma-card-socials"><img alt="" src={imgSocial} /></div>
+                    <div className="ma-box-content"><h3>Social Networks</h3>
+                    </div>
+                </div>
+
+                <div className="ma-box ma-column-tree third" >
+
+                    <div className="ma-card-socials"><img alt="" src={imgFamily} /></div>
+                    <div className="ma-box-content"><h3>Hobbies</h3>
                         <p>I love programming my happiness and developing a new app. But I also like sports and enjoy with my family</p>
-                    </div>
-                </div>
-
-                <div className="fourbox three_column last_column second" >
-
-                    <div className="thumbbx"><img alt="" src="http://flythemesdemo.net/gosporty/wp-content/themes/gosporty-pro/images/feature2.png" /></div>
-                    <div className="fourbxcontent"><h3>Social Networks</h3>                        
-                    </div>
-                </div>
-
-                <div className="fourbox three_column third" >
-
-                    <div className="thumbbx"><img alt="" src="http://flythemesdemo.net/gosporty/wp-content/themes/gosporty-pro/images/feature3.png" /></div>
-                    <div className="fourbxcontent"><h3>Request a Budget</h3>
                     </div>
                 </div>
             </div>

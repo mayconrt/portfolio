@@ -33,25 +33,39 @@ export default function Projects() {
 
 
                             <div className="ma-card-img">
-                                <img src={imgHolerite} />
-                                <h4>Site de Agendamento</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
+                                <div className="ma-img-slider">
+                                    <img src={imgHolerite} />
+                                </div>
+
+                                <div className="ma-text-slider">
+                                    <h4>Site de Agendamento</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
+                                </div>
+                            </div>
+
+                            <div className="ma-card-img">
+                                <div className="ma-img-slider">
+                                    <img src={imgGtaSite} />
+                                </div>
+                                <div className="ma-text-slider">
+                                    <h4>Site de Agendamento</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
+                                </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
                             </div>
 
                             <div className="ma-card-img">
-                                <img src={imgGtaSite} />
-                                <h4>Site de Agendamento</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
+                                <div className="ma-img-slider">
+                                    <img src={imgFirstMillion} />
+                                </div>
+                                <div className="ma-text-slider">
+                                    <h4>Site de Agendamento</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
+                                </div>
                             </div>
-
-                            <div className="ma-card-img">
-                                <img src={imgFirstMillion} />
-                                <h4>Site de Agendamento</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
-                            </div>                            
 
                         </div>
 

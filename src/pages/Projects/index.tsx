@@ -28,7 +28,7 @@ export default function Projects() {
                                 <img src={imgScheduling} />
                                 <h4>Site de Agendamento</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
+                                
                             </div>
 
 
@@ -40,7 +40,6 @@ export default function Projects() {
                                 <div className="ma-text-slider">
                                     <h4>Site de Agendamento</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
                                 </div>
                             </div>
 
@@ -51,9 +50,7 @@ export default function Projects() {
                                 <div className="ma-text-slider">
                                     <h4>Site de Agendamento</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
                             </div>
 
                             <div className="ma-card-img">
@@ -62,7 +59,6 @@ export default function Projects() {
                                 </div>
                                 <div className="ma-text-slider">
                                     <h4>Site de Agendamento</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
                                 </div>
                             </div>

@@ -23,7 +23,6 @@ export default function Header() {
                         <li><a href="#">Skills</a></li>
                         <li><a href="#">Projects</a></li>
                         <li><a href="#">Contacts</a></li>
-                        <li><a href="#">Clients</a></li>
                     </ul>
                 </div>
             </div>

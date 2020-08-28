@@ -18,20 +18,10 @@
         padding: 8px;
         color: #ffffff;
     }    
-    /* .ma-div-header ul, .ma-div-header li{
-        display: inline-block;
-    }
-    
-    .ma-div-header ul li{
-        font-weight: 700;
-        padding: 10px;
-        text-transform: uppercase;
-    }
-    
-    .ma-div-header ul li a{
-        text-decoration: none;
-        color: #ffffff;
-    } */
+
+    .ma-logo img{
+        width: 10rem;
+    }    
 
 }
 
@@ -48,6 +38,10 @@
     .ma-menu-max{
         display: block;
     }    
+
+    .ma-logo img{
+        width: 100%;
+    }        
 
 }
 

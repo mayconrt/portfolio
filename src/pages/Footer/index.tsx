@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { FaInstagram, FaFacebookF, FaLinkedin, FaMailBulk } from 'react-icons/fa'
+import { FaInstagram, FaFacebookF, FaLinkedin } from 'react-icons/fa'
 
 import './style.css'
 
@@ -17,7 +17,6 @@ export default function Header() {
                                 <li><a href="#">Skills</a></li>
                                 <li><a href="#">Projects</a></li>
                                 <li><a href="#">Contacts</a></li>
-                                <li><a href="#">Clients</a></li>
                             </ul>
                         </div>
                     </div>

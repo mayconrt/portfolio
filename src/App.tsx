@@ -10,18 +10,12 @@ import Footer from './pages/Footer'
 function App() {
   return (
     <Fragment>
-      <header>
-        <Header />
-      </header>
-      <body>
-        <main>
-          <Home />
-          <Slkills />
-          <About />
-          <Projects />
-          <Footer />
-        </main>
-      </body>
+      <Header />
+      <Home />
+      <Slkills />
+      <About />
+      <Projects />
+      <Footer />
     </Fragment>
   );
 }

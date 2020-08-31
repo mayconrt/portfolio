@@ -5,13 +5,13 @@
 	}
 
 	.ma-container-projects img {
-		width: 80%;
+		width: 90%;
 	}	
 
-	#s1:target ~ .slider {transform: translateX(-3%); -webkit-transform: translateX(-3%);}
-	#s2:target ~ .slider {transform: translateX(-65%); -webkit-transform: translateX(-65%);}
-	#s3:target ~ .slider {transform: translateX(-125%); -webkit-transform: translateX(-125%);}
-	#s4:target ~ .slider {transform: translateX(-187%); -webkit-transform: translateX(-187%);}	
+	#s1:target ~ .slider {transform: translateX(-0%); -webkit-transform: translateX(-0%);}
+	#s2:target ~ .slider {transform: translateX(-60%); -webkit-transform: translateX(-60%);}
+	#s3:target ~ .slider {transform: translateX(-121%); -webkit-transform: translateX(-121%);}
+	#s4:target ~ .slider {transform: translateX(-185%); -webkit-transform: translateX(-185%);}	
 
 }
 
@@ -258,4 +258,8 @@ margin: 15px;
     margin-bottom: 15px;
     font-size: 20px;
     font-weight: 700;
+}
+
+.prevNext a svg {
+	margin-top: 15px;
 }

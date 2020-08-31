@@ -2,3 +2,7 @@ body{
     font-family: 'Karla';
     font-size: 18px;
 }
+
+p {
+    margin-top: 10px;
+}

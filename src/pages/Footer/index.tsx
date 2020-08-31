@@ -12,11 +12,11 @@ export default function Header() {
                     <div className="ma-menu-footer-main">
                         <div className="ma-menu-footer">
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Skills</a></li>
-                                <li><a href="#">Projects</a></li>
-                                <li><a href="#">Contacts</a></li>
+                                <li><a href="#ma-serction-home">Home</a></li>
+                                <li><a href="#ma-section-about">About</a></li>
+                                <li><a href="#ma-section-skills">Skills</a></li>
+                                <li><a href="#ma-section-projects">Projects</a></li>
+                                <li><a href="#ma-serction-home">Contacts</a></li>
                             </ul>
                         </div>
                     </div>

@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { FaArrowRight, FaArrowLeft } from 'react-icons/fa'
+
 import './style.css'
 
 import imgScheduling from '../../assets/img-project-scheduling.png'
@@ -9,7 +11,7 @@ import imgFirstMillion from '../../assets/img-project-firstmillion.png'
 
 export default function Projects() {
     return (
-        <section className="ma-section-projects">
+        <section id="ma-section-projects" className="ma-section-projects">
             <div className="ma-container-projects">
                 <h1>My Projects</h1>
                 <div className="ma-projects">
@@ -25,51 +27,51 @@ export default function Projects() {
                         <div className="slider">
 
                             <div className="ma-card-img">
-                                <img src={imgScheduling} />
-                                <h4>Site de Agendamento</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
+                                <img alt="Scheduling System" src={imgScheduling} />
+                                <h4>Scheduling System</h4>
+                                <p>Institutional website that allows you to schedule the service.</p>
                                 
                             </div>
 
 
                             <div className="ma-card-img">
                                 <div className="ma-img-slider">
-                                    <img src={imgHolerite} />
+                                    <img alt="Website with scheduling" src={imgHolerite} />
                                 </div>
 
                                 <div className="ma-text-slider">
-                                    <h4>Site de Agendamento</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
+                                    <h4>Website with scheduling</h4>
+                                    <p>System for downloading holerites</p>
                                 </div>
                             </div>
 
                             <div className="ma-card-img">
                                 <div className="ma-img-slider">
-                                    <img src={imgGtaSite} />
+                                    <img alt="Institutional website" src={imgGtaSite} />
                                 </div>
                                 <div className="ma-text-slider">
-                                    <h4>Site de Agendamento</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
+                                    <h4>Institutional website</h4>
+                                    <p>Company website</p>
                                 </div>
                             </div>
 
                             <div className="ma-card-img">
                                 <div className="ma-img-slider">
-                                    <img src={imgFirstMillion} />
+                                    <img alt="Expense control system" src={imgFirstMillion} />
                                 </div>
                                 <div className="ma-text-slider">
-                                    <h4>Site de Agendamento</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
+                                    <h4>Expense control system</h4>
+                                    <p>Control your personal expenses and know where your biggest expense is</p>
                                 </div>
                             </div>
 
                         </div>
 
                         <div className="prevNext">
-                            <div><a href="#s4"></a><a href="#s2"></a></div>
-                            <div><a href="#s1"></a><a href="#s3"></a></div>
-                            <div><a href="#s2"></a><a href="#s4"></a></div>
-                            <div><a href="#s3"></a><a href="#s1"></a></div>
+                            <div><a href="#s4"><FaArrowLeft size="30" /></a><a href="#s2">< FaArrowRight size="30" /></a></div>
+                            <div><a href="#s1"><FaArrowLeft size="30" /></a><a href="#s3"><FaArrowRight size="30" /></a></div>
+                            <div><a href="#2"><FaArrowLeft size="30" /></a><a href="#s4"><FaArrowRight size="30" /></a></div>
+                            <div><a href="#s3"><FaArrowLeft size="30" /></a><a href="#s1"><FaArrowRight size="30" /></a></div>
                         </div>
 
                         <div className="bullets">
@@ -80,23 +82,6 @@ export default function Projects() {
                         </div>
 
                     </div>
-
-
-                    {/* <div className="ma-card-img">
-                        <img src={imgHolerite} />
-                        <h4>Download Holerite</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
-                    </div>
-                    <div className="ma-card-img">
-                        <img src={imgGtaSite} />
-                        <h4>Site Institucional</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A.</p>
-                    </div> */}
-                    {/* <div className="ma-card-img">
-                        <img src={imgFirstMillion} />
-                    </div> */}
                 </div>
             </div>
         </section>
